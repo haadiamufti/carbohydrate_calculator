@@ -19,7 +19,7 @@ public class TestCarbCalculator {
 		driver.get("https://www.calculator.net/carbohydrate-calculator.html");
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
 		boolean titleShown = driver.getTitle().contains("Carbohydrate Calculator");
-		// Chekc if "Carbohydrate Calculator" appears on the page title
+		// Check if "Carbohydrate Calculator" appears on the page title
 		Assert.assertTrue(titleShown, "Failed to show page header");
 	}
 	
